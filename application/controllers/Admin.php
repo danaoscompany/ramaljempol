@@ -335,68 +335,68 @@ class Admin extends CI_Controller {
 		
 		$this->db->where('type', 'artist_man_1');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artist_manAquarius
+			'description_in' => $artistMan1
 		));
 		$this->db->where('type', 'artist_man_2');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistMan1
+			'description_in' => $artistMan2
 		));
 		$this->db->where('type', 'artist_man_3');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistMan2
+			'description_in' => $artistMan3
 		));
 		$this->db->where('type', 'artist_man_4');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistMan3
+			'description_in' => $artistMan4
 		));
 		$this->db->where('type', 'artist_man_5');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistMan4
+			'description_in' => $artistMan5
 		));
 		$this->db->where('type', 'artist_man_6');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistMan5
+			'description_in' => $artistMan6
 		));
 		$this->db->where('type', 'artist_man_7');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistMan6
+			'description_in' => $artistMan7
 		));
 		$this->db->where('type', 'artist_man_8');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistMan7
+			'description_in' => $artistMan8
 		));
 		
 		$this->db->where('type', 'artist_woman_1');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artist_womanAquarius
+			'description_in' => $artistWoman1
 		));
 		$this->db->where('type', 'artist_woman_2');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistWoman1
+			'description_in' => $artistWoman2
 		));
 		$this->db->where('type', 'artist_woman_3');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistWoman2
+			'description_in' => $artistWoman3
 		));
 		$this->db->where('type', 'artist_woman_4');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistWoman3
+			'description_in' => $artistWoman4
 		));
 		$this->db->where('type', 'artist_woman_5');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistWoman4
+			'description_in' => $artistWoman5
 		));
 		$this->db->where('type', 'artist_woman_6');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistWoman5
+			'description_in' => $artistWoman6
 		));
 		$this->db->where('type', 'artist_woman_7');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistWoman6
+			'description_in' => $artistWoman7
 		));
 		$this->db->where('type', 'artist_woman_8');
 		$this->db->update('zodiacs', array(
-			'description_in' => $artistWoman7
+			'description_in' => $artistWoman8
 		));
 	}
 	
@@ -668,72 +668,70 @@ class Admin extends CI_Controller {
 			'description_en' => $healthVirgo
 		));
 		
-		
-		
 		$this->db->where('type', 'artist_man_1');
-		$this->db->update('zodiacs', array(
-			'description_en' => $artist_manAquarius
-		));
-		$this->db->where('type', 'artist_man_2');
 		$this->db->update('zodiacs', array(
 			'description_en' => $artistMan1
 		));
-		$this->db->where('type', 'artist_man_3');
+		$this->db->where('type', 'artist_man_2');
 		$this->db->update('zodiacs', array(
 			'description_en' => $artistMan2
 		));
-		$this->db->where('type', 'artist_man_4');
+		$this->db->where('type', 'artist_man_3');
 		$this->db->update('zodiacs', array(
 			'description_en' => $artistMan3
 		));
-		$this->db->where('type', 'artist_man_5');
+		$this->db->where('type', 'artist_man_4');
 		$this->db->update('zodiacs', array(
 			'description_en' => $artistMan4
 		));
-		$this->db->where('type', 'artist_man_6');
+		$this->db->where('type', 'artist_man_5');
 		$this->db->update('zodiacs', array(
 			'description_en' => $artistMan5
 		));
-		$this->db->where('type', 'artist_man_7');
+		$this->db->where('type', 'artist_man_6');
 		$this->db->update('zodiacs', array(
 			'description_en' => $artistMan6
 		));
-		$this->db->where('type', 'artist_man_8');
+		$this->db->where('type', 'artist_man_7');
 		$this->db->update('zodiacs', array(
 			'description_en' => $artistMan7
+		));
+		$this->db->where('type', 'artist_man_8');
+		$this->db->update('zodiacs', array(
+			'description_en' => $artistMan8
 		));
 		
 		$this->db->where('type', 'artist_woman_1');
 		$this->db->update('zodiacs', array(
-			'description_en' => $artist_womanAquarius
+			'description_en' => $artistWoman1
 		));
 		$this->db->where('type', 'artist_woman_2');
 		$this->db->update('zodiacs', array(
-			'description_en' => $artistWoman1
+			'description_en' => $artistWoman2
 		));
 		$this->db->where('type', 'artist_woman_3');
 		$this->db->update('zodiacs', array(
-			'description_en' => $artistWoman2
+			'description_en' => $artistWoman3
 		));
 		$this->db->where('type', 'artist_woman_4');
 		$this->db->update('zodiacs', array(
-			'description_en' => $artistWoman3
+			'description_en' => $artistWoman4
 		));
 		$this->db->where('type', 'artist_woman_5');
 		$this->db->update('zodiacs', array(
-			'description_en' => $artistWoman4
+			'description_en' => $artistWoman5
 		));
 		$this->db->where('type', 'artist_woman_6');
 		$this->db->update('zodiacs', array(
-			'description_en' => $artistWoman5
+			'description_en' => $artistWoman6
 		));
 		$this->db->where('type', 'artist_woman_7');
 		$this->db->update('zodiacs', array(
-			'description_en' => $artistWoman6
+			'description_en' => $artistWoman7
 		));
 		$this->db->where('type', 'artist_woman_8');
 		$this->db->update('zodiacs', array(
-			'description_en' => $artistWoman7
+			'description_en' => $artistWoman8
 		));
 	}
 }
