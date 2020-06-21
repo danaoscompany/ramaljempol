@@ -17,7 +17,7 @@ class Admin extends CI_Controller {
 			));
 		} else {
 			echo json_encode(array(
-				'response_code' => -2
+				'response_code' => -1
 			));
 		}
 	}
